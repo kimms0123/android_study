@@ -56,7 +56,7 @@ class MainActivity : AppCompatActivity() {
 
         var timerTask: Timer? = null // ? =null: nullable => null 을 허용하는 문자열
         var time: Int = 0 // 초(sec) 변수
-        val tv: TextView = findViewById(R.id.tv_hello) // text 변수
+        val tv: TextView = findViewById(R.id.tv_random) // text 변수
         val btn: Button = findViewById(R.id.btn_kor) // 리셋 변수
         val start: Button = findViewById(R.id.btn_start) // 시작 변수 선언
         val sectxt: TextView = findViewById(R.id.sectxt) // 0.1초 변수
