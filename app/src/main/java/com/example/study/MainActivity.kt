@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         // val:
         // var:
 
-        val tv: TextView = findViewById(R.id.tv_random) // tv_hello라는 이름을 가진 위젯을 변수 tv로 명명
+        val tv: TextView = findViewById(R.id.tv_hello) // tv_hello라는 이름을 가진 위젯을 변수 tv로 명명
         // tv.text = "안녕" // 위젯 내용을 '안녕'으로 변경함
 
         val btn: Button = findViewById(R.id.btn_kor) // btn_kor라는 이름을 가진 위젯을 변수 btn으로 명명
