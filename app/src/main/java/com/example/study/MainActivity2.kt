@@ -3,10 +3,7 @@ package com.example.study
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import java.util.Timer
 import kotlin.concurrent.timer
 
@@ -17,7 +14,7 @@ class MainActivity2 : AppCompatActivity() {
         // 변수 선언
         var timerTask: Timer? = null // ? =null: nullable => null 을 허용하는 문자열
         var sec : Int = 0 // 초(sec) 변수
-        val tv: TextView = findViewById(R.id.tv_hello) // text 변수
+        val tv: TextView = findViewById(R.id.tv_random) // text 변수
         val btn: Button = findViewById(R.id.btn_kor) // btn 변수
         var isRunning = false
 
