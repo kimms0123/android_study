@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
 
         val btn: Button = findViewById(R.id.btn_kor) // btn_kor라는 이름을 가진 위젯을 변수 btn으로 명명
         btn.setOnClickListener { // 버튼을 누르면
-            tv.text = "안녕" // hello -> '안녕'으로 변경
+            tv.text = "안녕" // hello -> '안녕'으로 변경.
         }
 
 
