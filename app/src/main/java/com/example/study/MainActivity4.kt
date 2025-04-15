@@ -23,7 +23,7 @@ class MainActivity4 : AppCompatActivity() {
         var stage = 1
         var sec : Int = 0 // 초(sec) 변수
         val tv: TextView = findViewById(R.id.tv_random) // text 변수
-        val tv_t: TextView = findViewById(R.id.tv_main) // text 변수
+        val tv_t: TextView = findViewById(R.id.tv_timer) // text 변수
         val tv_p: TextView = findViewById(R.id.tv_point) // text 변수
         val tv_people: TextView = findViewById(R.id.tv_people) // text 변수
         val btn: Button = findViewById(R.id.btn_main) // btn 변수
