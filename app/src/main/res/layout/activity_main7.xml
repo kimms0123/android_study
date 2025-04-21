@@ -71,6 +71,7 @@
 
     <Button
         android:id="@+id/btn_main"
+        style="@style/customButtonFontStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
@@ -85,6 +86,7 @@
 
     <Button
         android:id="@+id/btn_i"
+        style="@style/customButtonFontStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"

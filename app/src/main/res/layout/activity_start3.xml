@@ -61,6 +61,7 @@
 
     <Button
         android:id="@+id/btn_start"
+        style="@style/customButtonFontStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="시작"
@@ -71,9 +72,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_pnum"
         app:layout_constraintVertical_bias="0.74" />
+        <!--  buttonStyle이 GUI에서 적용 안돼서 코드에서 적용 시킴 (style="@~")  -->
 
     <Button
         android:id="@+id/btn_blind"
+        style="@style/customButtonFontStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Blind Mode Off"
